@@ -32,7 +32,7 @@
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    width: 200px;
+    flex: 1; /* Added flex property to make columns grow equally */
     text-align: center;
   }
 
@@ -54,11 +54,11 @@
   img {
     max-width: 300px; /* Adjust this value as needed */
     height: auto;
-    margin: 20px;
+    margin: 20px auto; /* Center the image horizontally */
   }
 
-  .output-row {
-    height: 400px; /* Adjust this value as needed */
+  .output-column {
+    flex: 2; /* Adjust this value to control the width of the output column */
   }
 
   a {
