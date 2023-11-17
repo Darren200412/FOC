@@ -21,71 +21,24 @@
             padding: 10px;
         }
 
-        nav {
-            background-color: #95a5a6; /* Light grey navigation background */
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav li {
-            margin-right: 10px;
-            transition: background-color 0.3s;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #ecf0f1; /* Light text color */
-            padding: 8px 16px;
-            display: block;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        nav a:hover {
-            background-color: #7f8c8d; /* Darker grey on hover */
-        }
-
-        .link {
-            background-color: #34495e; /* Darker grey link background */
-            color: #fff;
-            text-decoration: none;
-            padding: 8px 16px;
-            display: block;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-            margin-right: 10px;
-        }
-
-        .link:hover {
-            background-color: #7f8c8d; /* Darker grey on hover */
-        }
-
-        .sub-link {
-            background-color: #34495e; /* Darker grey link background */
-            color: #fff;
-            text-decoration: none;
-            padding: 8px 16px;
-            display: block;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-            margin-right: 10px;
-        }
-
-        .sub-link:hover {
-            background-color: #7f8c8d; /* Darker grey on hover */
-        }
-
-        main {
+        .projects {
             text-align: center;
             padding: 20px;
+        }
+
+        .project-link {
+            text-decoration: none;
+            color: #ecf0f1; /* Light text color */
+            background-color: #34495e; /* Darker grey link background */
+            padding: 8px 16px;
+            display: block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin: 10px auto;
+        }
+
+        .project-link:hover {
+            background-color: #7f8c8d; /* Darker grey on hover */
         }
 
         img {
@@ -113,25 +66,18 @@
         <h1>Your Page Header</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li class="link"><a href="index.html">Course</a></li>
-            <li class="sub-link"><a href="notgate.html">Project 1: NOT Gate</a></li>
-            <li class="sub-link"><a href="easyand.html">Project 2: AND Gate - easy version</a></li>
-            <li class="sub-link"><a href="binarytohex.html">Project 3: Binary to Hexadecimal Converter</a></li>
-            <li class="sub-link"><a href="ascii.html">Project 4: ASCII Converter</a></li>
-            <li class="sub-link"><a href="unicode.html">Project 5: UNICODE Converter</a></li>
-            <li class="link"><a href="#">Concepts</a></li>
-            <li class="link"><a href="#">Database</a></li>
-            <li class="link"><a href="#">Documentation</a></li>
-            <li class="link"><a href="#">About Me</a></li>
-        </ul>
-    </nav>
+    <div class="projects">
+        <h2>Projects</h2>
+        <a class="project-link" href="notgate.html">Project 1: NOT Gate</a>
+        <a class="project-link" href="easyand.html">Project 2: AND Gate - easy version</a>
+        <a class="project-link" href="binarytohex.html">Project 3: Binary to Hexadecimal Converter</a>
+        <a class="project-link" href="ascii.html">Project 4: ASCII Converter</a>
+        <a class="project-link" href="unicode.html">Project 5: UNICODE Converter</a>
+        <a class="project-link" href="MLinstructions.html">Project 6: Machine Language Instructions Converter</a>
+    </div>
 
     <main>
-        <img src="your-image.jpg" alt="Description of your image">
-        <p>Your text goes here.</p>
-    </main>
+      
 
     <footer>
         <p>Made and designed by Darren Cartagena.</p>
