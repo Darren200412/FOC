@@ -51,8 +51,10 @@
         }
 
         .instruction-image {
-            max-width: 55%;
+            max-width: 100%; /* Adjusted to take the full width of the container */
             height: auto;
+            border: 1px solid #ffffff; /* Added a border for clarity */
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Added a subtle shadow effect for clarity */
         }
     </style>
 </head>
@@ -68,7 +70,6 @@
         <button class="button" onclick="changeInstruction('ML3.png', 'mlpcthree.png')">5056</button><br>
         <button class="button" onclick="changeInstruction('ML4.png', 'mlpcfour.png')">306E</button><br>
         <button class="button" onclick="changeInstruction('ML5.png', 'mlpcfive.png')">C000</button><br>
-  
     </div>
     <img id="Englishinstrucitons" src="" class="instruction-image">
 </div>
